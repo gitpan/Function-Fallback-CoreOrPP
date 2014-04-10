@@ -1,0 +1,18 @@
+Revision history for Function-Fallback-CoreOrPP
+
+0.03    2014-04-10 (SHARYANTO)
+
+        - No functional changes.
+
+        - Rename distribution from SHARYANTO-MaybeXS to
+          Function::Fallback::CoreOrPP.
+
+
+0.02    2014-04-09 (SHARYANTO)
+
+        - Replace Storable::dclone with Clone::PP::clone.
+
+
+0.01    2014-04-07 (SHARYANTO)
+
+        - First release.

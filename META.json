@@ -29,6 +29,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Acme::Damn" : "0",
             "Clone::PP" : "0",
             "Data::Clone" : "0",
             "List::MoreUtils" : "0",
@@ -56,7 +57,7 @@
          "web" : "https://github.com/sharyanto/perl-Function-Fallback-CoreOrPP"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"

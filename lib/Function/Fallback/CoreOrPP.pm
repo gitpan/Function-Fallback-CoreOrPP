@@ -4,7 +4,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 our $USE_NONCORE_XS_FIRST = 1;
 
@@ -59,7 +59,7 @@ Function::Fallback::CoreOrPP - Functions that use non-core XS module but provide
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 

@@ -21,7 +21,9 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Function::Fallback::CoreOrPP",
   "PREREQ_PM" => {
-    "Clone::PP" => 0
+    "Clone::PP" => 0,
+    "Data::Clone" => 0,
+    "List::MoreUtils" => 0
   },
   "TEST_REQUIRES" => {
     "File::Spec" => 0,
@@ -29,7 +31,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => "0.98"
   },
-  "VERSION" => "0.03",
+  "VERSION" => "0.04",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -38,9 +40,11 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Clone::PP" => 0,
+  "Data::Clone" => 0,
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
+  "List::MoreUtils" => 0,
   "Test::More" => "0.98"
 );
 

@@ -18,12 +18,14 @@ meta-spec:
 name: Function-Fallback-CoreOrPP
 requires:
   Clone::PP: '0'
+  Data::Clone: '0'
+  List::MoreUtils: '0'
   perl: '5.010001'
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Function-Fallback-CoreOrPP
   homepage: https://metacpan.org/release/Function-Fallback-CoreOrPP
   repository: git://github.com/sharyanto/perl-Function-Fallback-CoreOrPP.git
-version: '0.03'
+version: '0.04'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
@@ -248,10 +250,6 @@ x_Dist_Zilla:
           type: requires
       name: Prereqs
       version: '5.015'
-    -
-      class: Dist::Zilla::Plugin::Extras
-      name: 'lint-prereqs / assume-provided'
-      version: '0.01'
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'

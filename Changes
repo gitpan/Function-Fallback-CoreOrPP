@@ -1,5 +1,13 @@
 Revision history for Function-Fallback-CoreOrPP
 
+0.04    2014-04-10 (SHARYANTO)
+
+        - No functional changes.
+
+        - Require the non-core XS modules as deps. We only need optional deps
+          when building fatpacked app.
+
+
 0.03    2014-04-10 (SHARYANTO)
 
         - No functional changes.

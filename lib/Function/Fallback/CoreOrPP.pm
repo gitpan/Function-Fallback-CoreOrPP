@@ -4,7 +4,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-our $VERSION = '0.05'; # VERSION
+our $VERSION = '0.06'; # VERSION
 
 our $USE_NONCORE_XS_FIRST = 1;
 
@@ -95,7 +95,7 @@ Function::Fallback::CoreOrPP - Functions that use non-core XS module but provide
 
 =head1 VERSION
 
-version 0.05
+This document describes version 0.06 of Function::Fallback::CoreOrPP (from Perl distribution Function-Fallback-CoreOrPP), released on 2014-09-16.
 
 =head1 SYNOPSIS
 
@@ -154,7 +154,7 @@ Please visit the project's homepage at L<https://metacpan.org/release/Function-F
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/sharyanto/perl-Function-Fallback-CoreOrPP>.
+Source repository is at L<https://github.com/perlancar/perl-Function-Fallback-CoreOrPP>.
 
 =head1 BUGS
 
@@ -166,11 +166,11 @@ feature.
 
 =head1 AUTHOR
 
-Steven Haryanto <stevenharyanto@gmail.com>
+perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Steven Haryanto.
+This software is copyright (c) 2014 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
